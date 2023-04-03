@@ -1,0 +1,14 @@
+base_envs:
+  - name: 'test_MiniRun3_2_nu'
+    env:
+      ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.LFG_testing.20230228'
+      ARCUBE_CHERRYPICK: '0'
+      ARCUBE_DET_LOCATION: 'ProtoDUNE-ND'
+      ARCUBE_DK2NU_DIR: '/global/cfs/cdirs/dune/users/2x2EventGeneration/NuMI_dk2nu/newtarget-200kA_20220409'
+      ARCUBE_EDEP_MAC: 'macros/2x2_beam.mac'
+      ARCUBE_EXPOSURE: '1E15'
+      ARCUBE_GEOM: 'geometry/Merged2x2MINERvA_v2/Merged2x2MINERvA_v2_noRock.gdml'
+      ARCUBE_GEOM_EDEP: 'geometry/Merged2x2MINERvA_v2/Merged2x2MINERvA_v2_withRock.gdml'
+      ARCUBE_TUNE: 'D22_22a_02_11b'
+      ARCUBE_XSEC_FILE: '/global/cfs/cdirs/dune/users/2x2EventGeneration/inputs/NuMI/D22_22a_02_11b.all.LFG_testing.20230228.spline.xml'
+      ARCUBE_LOCAL_EDEP: '1'
