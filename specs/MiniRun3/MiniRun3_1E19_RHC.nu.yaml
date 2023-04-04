@@ -10,4 +10,4 @@ base_envs:
       ARCUBE_GEOM: 'geometry/Merged2x2MINERvA_v2/Merged2x2MINERvA_v2_noRock.gdml'
       ARCUBE_GEOM_EDEP: 'geometry/Merged2x2MINERvA_v2/Merged2x2MINERvA_v2_withRock.gdml'
       ARCUBE_TUNE: 'D22_22a_02_11b'
-      ARCUBE_XSEC_FILE: '/global/cfs/cdirs/dune/users/2x2EventGeneration/inputs/NuMI/D22_22a_02_11b.all.LFG_testing.20230228.v2.spline.xml'
+      ARCUBE_XSEC_FILE: '/global/cfs/cdirs/dune/users/2x2EventGeneration/inputs/NuMI/D22_22a_02_11b.all.LFG_testing.20230228.spline.xml'
