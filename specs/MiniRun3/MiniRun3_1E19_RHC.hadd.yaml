@@ -3,9 +3,9 @@ base_envs:
     env:
       ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.LFG_testing.20230228.v2'
       ARCUBE_IN_NAME: 'MiniRun3_1E19_RHC.nu'
-      ARCUBE_HADD_FACTOR: 10
+      ARCUBE_HADD_FACTOR: '10'
   - name: 'MiniRun3_1E19_RHC.rock.hadd'
     env:
       ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.LFG_testing.20230228.v2'
       ARCUBE_IN_NAME: 'MiniRun3_1E19_RHC.rock'
-      ARCUBE_HADD_FACTOR: 10
+      ARCUBE_HADD_FACTOR: '10'

@@ -3,6 +3,6 @@ base_envs:
     env:
       ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.LFG_testing.20230228.v2'
       ARCUBE_NU_NAME: 'MiniRun3_1E19_RHC.nu.hadd'
-      ARCUBE_NU_POT: '1E15'
+      ARCUBE_NU_POT: '1E16'
       ARCUBE_ROCK_NAME: 'MiniRun3_1E19_RHC.rock.hadd'
-      ARCUBE_ROCK_POT: '1E15'
+      ARCUBE_ROCK_POT: '1E16'
