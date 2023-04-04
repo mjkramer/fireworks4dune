@@ -1,5 +1,5 @@
 base_envs:
-  - name: 'MiniRun3_1E19_RHC_rock'
+  - name: 'MiniRun3_1E19_RHC.rock'
     env:
       ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.LFG_testing.20230228.v2'
       ARCUBE_CHERRYPICK: '0'

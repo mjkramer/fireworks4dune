@@ -1,0 +1,5 @@
+base_envs:
+  - name: 'MiniRun3_1E19_RHC.convert2h5'
+    env:
+      ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.LFG_testing.20230228.v2'
+      ARCUBE_SPILL_NAME: 'MiniRun3_1E19_RHC.spill'
