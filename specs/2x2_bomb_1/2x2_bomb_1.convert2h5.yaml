@@ -1,0 +1,5 @@
+base_envs:
+  - name: '2x2_bomb_1.convert2h5'
+    env:
+      ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.LFG_testing.20230228.v2'
+      ARCUBE_EDEP_NAME: '2x2_bomb_1.edep'

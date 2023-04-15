@@ -1,0 +1,20 @@
+repos:
+  - name: 'SimForBomb'
+    url: 'https://github.com/mjkramer/2x2_sim.git'
+    commit: 'abcdef'
+
+runners:
+  - name: 'SimForBomb_Edep'
+    repo: 'SimForBomb'
+    workdir: 'run-edep-sim'
+    cmd: './run_edep_sim.sh'
+
+  - name: 'SimForBomb_Convert2H5'
+    repo: 'SimForBomb'
+    workdir: 'run-convert2h5'
+    cmd: './run_convert2h5.sh'
+
+  - name: 'SimForBomb_LArND'
+    repo: 'SimForBomb'
+    workdir: 'run-larnd-sim'
+    cmd: './run_larnd_sim.sh'
