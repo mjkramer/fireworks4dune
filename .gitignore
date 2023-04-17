@@ -1,6 +1,7 @@
 /fireworks
 /fw.venv
-my_launchpad.yaml
+my_launchpad*.yaml
+!my_launchpad.template.yaml
 *.egg-info
 fw_config/FW_config.yaml
 /dump

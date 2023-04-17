@@ -31,6 +31,10 @@ if [[ -n "$FW4DUNE_SLEEP_SEC" ]]; then
     sleep $((RANDOM % FW4DUNE_SLEEP_SEC))
 fi
 
+if [[ -z "$FW4DUNE_NO_SLEEP" ]]; then
+    sleep $((RANDOM % 60))
+fi
+
 rlaunch -w "$fworker_yaml" "$rlaunch_mode" "${rlaunch_args[@]}"
 
 rm $fworker_yaml
