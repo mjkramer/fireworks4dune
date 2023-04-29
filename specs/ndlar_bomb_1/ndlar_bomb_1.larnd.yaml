@@ -1,0 +1,5 @@
+base_envs:
+  - name: 'ndlar_bomb_1.larnd'
+    env:
+      ARCUBE_DETECTOR_PROPERTIES: 'larnd-sim/larndsim/detector_properties/ndlar-module.yaml'
+      ARCUBE_CONVERT2H5_NAME: 'ndlar_bomb_1.convert2h5'

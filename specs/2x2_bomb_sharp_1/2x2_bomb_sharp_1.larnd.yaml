@@ -1,0 +1,4 @@
+base_envs:
+  - name: '2x2_bomb_sharp_1.larnd'
+    env:
+      ARCUBE_CONVERT2H5_NAME: '2x2_bomb_sharp_1.convert2h5'

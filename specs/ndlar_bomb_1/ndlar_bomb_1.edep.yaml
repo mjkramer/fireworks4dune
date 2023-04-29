@@ -1,0 +1,8 @@
+base_envs:
+  - name: 'ndlar_bomb_1.edep'
+    env:
+      ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.LFG_testing.20230228.v2'
+      ARCUBE_EDEP_MAC: 'macros/ndlar_bomb.mac'
+      ARCUBE_GEOM: 'geometry/nd_hall_only_lar_TRUE_1.gdml'
+      ARCUBE_NO_ACTIVE_LAR_CUT: '1'
+      ARCUBE_NEVENTS: '10'      # XXX
