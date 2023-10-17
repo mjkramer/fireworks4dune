@@ -1,0 +1,6 @@
+base_envs:
+  - name: '2x2_bomb_2.larnd'
+    env:
+      ARCUBE_CONVERT2H5_NAME: '2x2_bomb_2.convert2h5'
+      ARCUBE_LARNDSIM_DETECTOR_PROPERTIES: 'det_props/2x2_bomb_det_props.yaml'
+      ARCUBE_LARNDSIM_SIMULATION_PROPERTIES: 'sim_props/2x2_bomb_sim_props.yaml'

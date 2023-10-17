@@ -1,0 +1,7 @@
+base_envs:
+  - name: '2x2_bomb_2.edep'
+    env:
+      ARCUBE_CONTAINER: 'mjkramer/sim2x2:genie_edep.3_04_00.20230912'
+      ARCUBE_EDEP_MAC: 'macros/2x2_bomb.mac'
+      ARCUBE_GEOM: 'geometry/arc2x2_sensLAr.gdml'
+      ARCUBE_NEVENTS: '100'
