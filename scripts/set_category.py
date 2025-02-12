@@ -46,7 +46,9 @@ def main():
 
     query = {'name': args.name}
     update = {'$set': {'spec._category': args.category}}
-    fws.update_many(query, update)
+    result = fws.update_many(query, update)
+
+    print(f'Updated {result.modified_count} FireWorks')
 
 
 if __name__ == '__main__':
