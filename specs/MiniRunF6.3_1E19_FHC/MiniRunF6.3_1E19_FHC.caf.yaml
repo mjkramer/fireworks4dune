@@ -8,6 +8,7 @@ base_envs:
       ARCUBE_GHEP_NU_NAME: 'MiniRunF6.3_1E19_FHC.genie.nu'
       ARCUBE_GHEP_ROCK_NAME: 'MiniRunF6.3_1E19_FHC.genie.rock'
       ARCUBE_MINERVA_NAME: 'MiniRunF6.3_1E19_FHC.minerva'
+      ARCUBE_PANDORA_NAME: 'MiniRunF6.3_1E19_FHC.pandora'
       ARCUBE_SPINE_NAME: 'MiniRunF6.3_1E19_FHC.spine'
       ARCUBE_SPILL_NAME: 'MiniRunF6.3_1E19_FHC.spill'
 
